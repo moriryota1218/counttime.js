@@ -6,6 +6,11 @@
   font-weight: bold;
 }
 
+h1{
+  font-size: 60px;
+  color: #DC143C;
+}
+
 #target {
   font-size: 32px;
   margin-bottom: 15px;
@@ -13,6 +18,7 @@
   height: 60px;
   line-height: 60px;
 }
+
 #result {
   font-size: 32px;
   margin-bottom: 15px;
@@ -20,6 +26,11 @@
   height: 60px;
   line-height: 60px;
 }
+
+#result.standby {
+  opacity: 0.5;
+}
+
 
 #result.perfect {
   background: #FFD700;
